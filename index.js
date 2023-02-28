@@ -12,7 +12,7 @@ const render = require("./src/page-template.js");
 
 let team = [];
 
-async function startProgram() {
+async function generateTeam() {
 
     //todo inquirer
     var { name, id, email, officeNumber } = await inquirer
@@ -147,4 +147,4 @@ async function startProgram() {
 
 
 
-startProgram();
+generateTeam();
